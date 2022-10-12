@@ -17,6 +17,59 @@ header{
   margin: 50px auto;
 }
 
+.flow1, .flow2, .flow3{
+  width: 300px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.flow1, .flow2{
+  margin-right: 30px;
+}
+
+.step{
+  color: #FFFFFF;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.step1-img{
+  width: auto;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+}
+
+.step2-img{
+  width: auto;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+}
+
+.step3-img{
+  width: auto;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 15px 10px;
+}
+
+.step-title{
+  margin: 0px 10px 5px 10px;
+}
+
+.step-text{
+  margin: 0px 10px 10px 10px;
+}
+
 footer{
   width: 100%;
   height: 50px;
